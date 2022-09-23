@@ -1,10 +1,10 @@
 {
-  "name": "crt-terminal-demo",
+  "name": "@gton-capital/crt-terminal-demo",
   "version": "1.0.0",
   "description": "Retro looking CRT terminal for web",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/essserrr/crt-terminal.git"
+    "url": "git+https://github.com/GTON-capital/crt-terminal.git"
   },
   "keywords": [
     "crt",
@@ -16,7 +16,7 @@
   "author": "Dmitriy Lipin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/essserrr/crt-terminal/issues"
+    "url": "https://github.com/GTON-capital/crt-terminal/issues"
   },
   "private": true,
   "scripts": {
@@ -31,7 +31,7 @@
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "crt-terminal": "*"
+    "@gton-capital/crt-terminal": "*"
   },
   "devDependencies": {
     "next-transpile-modules": "9.0.0",

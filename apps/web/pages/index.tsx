@@ -8,7 +8,7 @@ import {
   anchorWord,
   buttonWord,
   commandWord,
-} from 'crt-terminal';
+} from '@gton-capital/crt-terminal';
 import Layout from '../components/Layout/Layout';
 import classes from './index.module.scss';
 
