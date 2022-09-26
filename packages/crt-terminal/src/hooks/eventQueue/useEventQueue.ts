@@ -65,9 +65,9 @@ function useEventQueue() {
     });
   };
 
-  const type = (payload: string) => {
+  const typeCommand = (payload: string) => {
     enqueue({
-      type: TerminalEvents.TYPE,
+      type: TerminalEvents.TYPE_COMMAND,
       payload,
     });
   };
@@ -81,7 +81,7 @@ function useEventQueue() {
       focus,
       lock,
       loading,
-      type,
+      typeCommand,
     },
   };
 }

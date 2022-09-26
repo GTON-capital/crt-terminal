@@ -143,7 +143,7 @@ function useTerminalController({
     if (!inputLocked) addCharacter(newInput);
   };
 
-  const type = (characters: string) => {
+  const typeCommand = (characters: string) => {
     if (!inputLocked) setInput(characters);
   };
 
@@ -195,7 +195,7 @@ function useTerminalController({
       handleInputChange,
       handleKeyboardDown,
       loading,
-      type,
+      typeCommand,
     },
   };
 }
